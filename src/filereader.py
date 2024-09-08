@@ -1,6 +1,6 @@
 import sys
 import os
-#modified the code
+#modified the code further
 rootpath = "/test data path/"
 for dir in os.listdir(rootpath):
     if not dir.startswith('.'):
