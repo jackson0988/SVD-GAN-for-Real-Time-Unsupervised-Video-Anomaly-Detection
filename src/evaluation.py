@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import glob
 from scipy.optimize import brentq
 from scipy.interpolate import interp1d
-
+#evaluation further 
 def check(i,curr):
     for x in curr:
         if in_range(i,x):
